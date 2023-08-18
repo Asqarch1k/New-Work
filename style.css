@@ -6,10 +6,10 @@
 .container {
   width: 100%;
   min-height: 100vh;
-  background-color: #153677;
+  background-color: #1e7631;
   padding: 10px;
 }
-.date{
+.date {
   text-align: center;
   display: flex;
   gap: 250px;
@@ -20,11 +20,11 @@
   position: relative;
 }
 
-.days{
+.days {
   font-size: 23px;
 }
 
-.time{
+.time {
   font-size: 23px;
 }
 
@@ -36,10 +36,10 @@
   padding: 40px 30px 70px;
   border-radius: 10px;
 }
-h1{
+h1 {
   text-align: center;
 }
-input{
+input {
   flex: 1;
   border: none;
   outline: none;
@@ -48,24 +48,25 @@ input{
   font-weight: 14px;
 }
 
-button{
+button {
   border: none;
   outline: none;
   padding: 16px 50px;
-background: #ff5945;
-color: #fff;
-font-size: 16px;
-border-radius: 40px;  
+  background: #ff5945;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 40px;
+  cursor: pointer;
 }
 
-.wrapper{
-display: flex;
-align-items: center;
-justify-content: space-between;
-background: #edeef0;
-padding-left: 20px;
-margin-bottom: 25px;
-border-radius: 30px;
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  border-radius: 30px;
 }
 ul {
   position: relative;
@@ -83,11 +84,11 @@ ul li span {
   border-radius: 50%;
 }
 
-ul li span:hover{
+ul li span:hover {
   background-color: #edeef0;
 }
 
-ul li{
+ul li {
   list-style: none;
   font-size: 17px;
   padding: 12px 8px 12px 50px;
@@ -95,7 +96,7 @@ ul li{
   cursor: pointer;
 }
 
-ul li.checked{
+ul li.checked {
   color: #555;
   text-decoration: line-through;
 }
