@@ -70,12 +70,10 @@ button {
 }
 ul {
   position: relative;
+  background-color: green;
 }
 
 ul li span {
-  position: absolute;
-  right: 0;
-  top: 5px;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -94,6 +92,8 @@ ul li {
   padding: 12px 8px 12px 50px;
   user-select: none;
   cursor: pointer;
+  display: flex;
+  justify-content: space-between;
 }
 
 ul li.checked {

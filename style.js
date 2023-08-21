@@ -8,11 +8,12 @@ function addTask() {
     alert("You must write something");
   } else {
     let li = document.createElement("li");
-    li.innerHTML = inputBox.value;
-    listContainer.appendChild(li);
     let span = document.createElement("span");
-    span.innerHTML = "\u00d7";
+
+    li.innerHTML = inputBox.value;
+    span.textContent = "❌";
     li.appendChild(span);
+    listContainer.appendChild(li);
   }
   inputBox.value = "";
   saveData();
@@ -76,3 +77,7 @@ hozirgiVaqtniOlish();
 setInterval(function () {
   hozirgiVaqtniOlish();
 }, 1000);
+
+// (async) => {
+//   const response = await fetch('')
+// };
